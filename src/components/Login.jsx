@@ -32,7 +32,7 @@ function Login() {
 
           <div className=" p-2">
             <div className="flex items-center">
-            <p>Dont have a account? <a href="">Signup for free!</a></p>
+            <p>Dont have a account? <a href="/sigin">Signup for free!</a></p>
             </div>
             <a href="#" className="text-blue-500">Forgot password?</a>
           </div>

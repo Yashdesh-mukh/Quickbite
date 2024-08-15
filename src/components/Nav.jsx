@@ -4,8 +4,8 @@ import { faMagnifyingGlass,faUser,faCartShopping,faTag} from '@fortawesome/free-
 
 function Nav() {
   return (
-    <>
-      <div className="nav bg-gray-200 p-2 h-27 flex justify-between items-center">
+    
+      <div className="nav fixed bg-gray-200 p-2 h-27 w-[100%] flex justify-between items-center ">
         <div className="left">
           logo
           <input className='bg-transparent'
@@ -37,13 +37,13 @@ function Nav() {
             </div>
             
             <div className=' signup flex flex-row space-x-2 items-center justify-center'><FontAwesomeIcon icon={faUser} />
-            <p>signup</p>
+            <a href="/login">Login</a>
             </div>
            
           </div>
         </div>
       </div>
-    </>
+    
   );
 }
 
