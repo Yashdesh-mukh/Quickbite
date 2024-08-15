@@ -5,14 +5,9 @@ import Signin from './components/Signin'
 import Login from './components/Login'
 function App() {
   return (
-  <>
-<Nav/>
-<Card/>
-<Signin/>
-<Login/>
-  </>
+    <div>
       
-    
+    </div>
   )
 }
 
