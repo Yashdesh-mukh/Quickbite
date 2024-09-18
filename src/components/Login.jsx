@@ -6,12 +6,12 @@ function Login() {
       <div className="flex align-center bg-white shadow-lg rounded-md overflow-hidden">
        
         <div className="left w-96 bg-white h-96  p-5 flex flex-col ">
-          <h1 className="text-center text-xl font-bold mb-4">Create your account</h1>
+          <h1 className="text-center text-xl font-bold mb-4">Login to your account</h1>
 
           <div className="container flex flex-col p-2">
             <label htmlFor="username">Username</label>
             <input
-              className="bg-white border-none p-2 focus:outline-none focus:ring-0 focus:border-gray-500 border-b border-gray-300"
+              className="bg-white border-b p-2 focus:outline-none focus:ring-0 focus:border-gray-500 border-b border-gray-300"
               type="text"
               id="username"
             />
@@ -20,7 +20,7 @@ function Login() {
           <div className="container flex flex-col p-2">
             <label htmlFor="password">Password</label>
             <input
-              className="bg-transparent border-none p-2 focus:outline-none focus:ring-0 focus:border-gray-500 border-b border-gray-300"
+              className="bg-transparent border-b p-2 focus:outline-none focus:ring-0 focus:border-gray-500 border-b border-gray-300"
               type="password"
               id="password"
             />

@@ -5,31 +5,31 @@ function Signin() {
     <div className="flex justify-center items-center min-h-screen rounded-md bg-gray-100">
       <div className="flex bg-white shadow-lg rounded-md overflow-hidden">
        
-        <div className="container w-96 bg-orange-200 h-96  p-5 flex flex-col justify-center">
+        <div className="container w-96  h-96  p-5 flex flex-col justify-center">
           <h1 className="text-center text-xl font-bold mb-4">Create your account</h1>
 
           <div className="container flex flex-col p-2">
-            <label htmlFor="username">Username</label>
+            <label htmlFor="username">Email</label>
             <input
-              className="bg-inherit rounded-sm focus:outline-none border-none p-2"
-              type="text"
-              id="username"
-              placeholder="Enter username..."
+              className="bg-inherit border-b rounded-sm focus:outline-none  p-2"
+              type="email"
+              id="Email"
+            
             />
           </div>
 
           <div className="container flex flex-col p-2">
             <label htmlFor="password">Password</label>
             <input
-              className="bg-inherit rounded-sm focus:outline-none border-none p-2"
+              className="bg-inherit border-b rounded-sm focus:outline-none border-b p-2"
               type="password"
               id="password"
-              placeholder="Enter password..."
+              
             />
           </div>
 
           <div className="flex justify-center my-4">
-            <button className="bg-blue-200 px-4 py-2 rounded-md">Login</button>
+            <button className="bg-blue-200 px-4 py-2 rounded-md">Sign up</button>
           </div>
 
           <div className="flex justify-between items-center p-2">
