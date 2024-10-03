@@ -3,6 +3,7 @@ import Nav from './components/Nav'
 import Router from '../routers/Router'
 import Dishes from './components/Dishes'
 import ResCard from './components/ResCard'
+import Features from './components/Features'
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
       <Dishes/>
       <ResCard/>
       <Router/>
+      <Features/>
 
     </div>
   )
